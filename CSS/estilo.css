@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #EBDED1;
+}
+
+/* HEADER */
+header{
+    width: 100%;
+    background-color: #F2F5E7;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);    /* SOMBRA */
+    position: fixed;    /* FIXAR A POSIÇÃO */
+}
+
+nav{
+    padding: 44px 0 46px 0;
+}
+
+.topo-conteudo{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logotipo-topo{
+    width: 170px;
+}
+
+.menu{
+    width: 367px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a{
+    font-family: Alice;
+    font-style: normal;
+    font-weight: normal;    /* NEGRITO */
+    font-size: 35px;
+    text-decoration: none;  /* SUBLINHADO */
+    color: #000000;
+}
+
+.menu a:hover{  /* Passar o mouse em cima */
+    border-bottom: 1px solid #762281;
+    padding-bottom: 10px;
+    border-top: 1px solid #762281;
+    padding-top: 10px;
+    color: #762281;
+}
+
+/* _-_-_-_-_-_-_-_-_-_-_-_ */
+
+/* BANNER */
+.banner{
+    height: 500px;
+    background-image: url(../imagens/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* MASCARA, a imagem cresce conforme é necessario sem distorcer */
+    padding-top: 130px;
+}
+
+.texto-banner{
+    width: 1200px;
+    margin: auto;
+    padding-top: 186px;
+    color: white;
+}
+
+.texto-banner h1{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.texto-banner p{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+/* _-_-_-_-_-_-_-_-_-_-_-_ */
+
+/* CONTEUDO PRINCIPAL */
+main{
+    width: 1200px;
+    margin: auto;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0 120px 0;
+}
+
+.boxes div{
+    width: 590px;
+}
+
+.boxes h2{
+    font-family: Alice;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    padding: 20px 0 20px 0;
+}
+
+.boxes p{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    padding-bottom: 30px;
+}
+
+.boxes a{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 11px;
+    text-decoration: none;
+    color: #7E0B83
+}
+
+.boxes a:hover{
+    font-weight: 800;
+    border: 1px solid #7E0B83;
+    padding: 10px;
+    background-color: #D0A8D1;
+}
+
+/* _-_-_-_-_-_-_-_-_-_-_-_ */
+
+/* BANNER RODAPE */
+.banner-rodape{
+    background-image: url(../imagens/banner-rodape.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+/* _-_-_-_-_-_-_-_-_-_-_-_ */
+
+/* FOOTER */
+footer{
+    background-color: #415D64;
+    text-align: center;
+}
+
+.texto-rodape{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 23px 0 23px 0;
+    color: #E1868A;
+    text-transform: uppercase;
+}
+/* _-_-_-_-_-_-_-_-_-_-_-_ */
